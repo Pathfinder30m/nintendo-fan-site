@@ -73,3 +73,44 @@ body {
 #header:hover, #header:active {
     border: 5px rgb(252, 235, 6) solid;
 }
+.ways2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 15px;
+}
+#waysTitle, .wayName {
+    text-align: center;
+}
+.techspecs {
+    text-align: center;
+}
+th, td {
+    padding: 5px;
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+}
+.popImg {
+    width: 80%;
+    height: auto;
+}
+.gameDescr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.popTitle, #acessorTitle {
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+#accesorList {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.accesImg {
+    width: 70%;
+    height: auto;
+}
+#accesories {
+    padding: 10px;
+}
