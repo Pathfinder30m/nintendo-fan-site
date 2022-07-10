@@ -4,7 +4,6 @@ function mainContent() {
     document.getElementById("ways2play").setAttribute("class", "hidden");
     document.getElementById("popGames").setAttribute("class", "hidden");
     document.getElementById("accesories").setAttribute("class", "hidden");
-    document.getElementById("where2buy").setAttribute("class", "hidden");
     document.getElementById("ingamefoto").setAttribute("class", "hidden");
 };
 function techInfo() {
@@ -13,7 +12,6 @@ function techInfo() {
     document.getElementById("ways2play").setAttribute("class", "hidden");
     document.getElementById("popGames").setAttribute("class", "hidden");
     document.getElementById("accesories").setAttribute("class", "hidden");
-    document.getElementById("where2buy").setAttribute("class", "hidden");
     document.getElementById("ingamefoto").setAttribute("class", "hidden");
 };
 function ways2play() {
@@ -22,7 +20,6 @@ function ways2play() {
     document.getElementById("ways2play").setAttribute("class", "main");
     document.getElementById("popGames").setAttribute("class", "hidden");
     document.getElementById("accesories").setAttribute("class", "hidden");
-    document.getElementById("where2buy").setAttribute("class", "hidden");
     document.getElementById("ingamefoto").setAttribute("class", "hidden");
 };
 function popgames() {
@@ -31,7 +28,6 @@ function popgames() {
     document.getElementById("ways2play").setAttribute("class", "hidden");
     document.getElementById("popGames").setAttribute("class", "main");
     document.getElementById("accesories").setAttribute("class", "hidden");
-    document.getElementById("where2buy").setAttribute("class", "hidden");
     document.getElementById("ingamefoto").setAttribute("class", "hidden");
 };
 function accesories() {
@@ -40,25 +36,16 @@ function accesories() {
     document.getElementById("ways2play").setAttribute("class", "hidden");
     document.getElementById("popGames").setAttribute("class", "hidden");
     document.getElementById("accesories").setAttribute("class", "main");
-    document.getElementById("where2buy").setAttribute("class", "hidden");
     document.getElementById("ingamefoto").setAttribute("class", "hidden");
 };
-function wheretobuy() {
-    document.getElementById("mainContent").setAttribute("class", "hidden");
-    document.getElementById("techInfo").setAttribute("class", "hidden");
-    document.getElementById("ways2play").setAttribute("class", "hidden");
-    document.getElementById("popGames").setAttribute("class", "hidden");
-    document.getElementById("accesories").setAttribute("class", "hidden");
-    document.getElementById("where2buy").setAttribute("class", "main");
-    document.getElementById("ingamefoto").setAttribute("class", "hidden");
-};
+
 function ingamefoto() {
     document.getElementById("mainContent").setAttribute("class", "hidden");
     document.getElementById("techInfo").setAttribute("class", "hidden");
     document.getElementById("ways2play").setAttribute("class", "hidden");
     document.getElementById("popGames").setAttribute("class", "hidden");
     document.getElementById("accesories").setAttribute("class", "hidden");
-    document.getElementById("where2buy").setAttribute("class", "hidden");
+   
     document.getElementById("ingamefoto").setAttribute("class", "main");
 };
 /*document.getElementById("header").addEventListener("click", mainContent);
