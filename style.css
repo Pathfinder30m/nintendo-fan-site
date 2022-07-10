@@ -97,7 +97,7 @@ th, td {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.popTitle, #acessorTitle {
+.popTitle, #acessorTitle, #screenTitle {
     text-align: center;
     padding: 10px;
     font-weight: bolder;
@@ -113,4 +113,17 @@ th, td {
 }
 #accesories {
     padding: 10px;
+}
+#screenshots {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.screenImg {
+    width: 80%;
+    height: auto;
+    margin: 10px;
+    border-radius: 20px;
+}
+.screenImg:hover {
+    transform: scale(2.5);
 }

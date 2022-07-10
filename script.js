@@ -48,10 +48,3 @@ function ingamefoto() {
    
     document.getElementById("ingamefoto").setAttribute("class", "main");
 };
-/*document.getElementById("header").addEventListener("click", mainContent);
-document.getElementById("specs").addEventListener("click", techInfo);
-document.getElementById("ways").addEventListener("click", ways2play);
-document.getElementById("pop").addEventListener("click", popgames);
-document.getElementById("acc").addEventListener("click", accesories);
-document.getElementById("where").addEventListener("click", wheretobuy);
-document.getElementById("screen").addEventListener("click", ingamefoto);*/
